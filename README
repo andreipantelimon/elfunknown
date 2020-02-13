@@ -1,0 +1,19 @@
+Pantelimon Andrei
+315 CA
+- In main se declara structurile, se realizeaza formatul fisierelor in si out,
+se declara dinamc structurile si se apeleaza functia de citire.
+Dupa apelul functiei, se verifica daca jocul s-a incheiat din citire (doar un 
+singur elf a supravietuit caderii), in caz contrar se apeleaza functia de citire
+a miscarilor.
+Se elibereaza memoria si se inchid fisierele.
+- Functia de citire citeste valorile date dupa reguli si verifica daca 
+elful citit a cazut pe ghetar sau nu.
+- Functia de miscari citeste miscarile si apeleaza functiile corespunzatoare
+fiecarei miscari: moves pentru a muta , snows pentru snowstorm, melts pentru
+meltdown si scores pentru print scoreboard.
+- Functia moves citeste sirul de caractere si apeleaza pentru fiecare
+mutare in parte cate o functie ce returneaza 1 daca s-a efectuat miscarea si
+0 in caz contrar. (functiile up, down, left, right)
+- Functia snows realizeaza miscarea SNOWSTORM dupa regulile impuse
+- Functia melts realizeaza miscarea MELTDOWN dupa regulile impuse
+- Functia scores afiseaza tabela de castig (scoreboard)
