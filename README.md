@@ -1,2 +1,0 @@
-# elfunknown
-Small game implementation
